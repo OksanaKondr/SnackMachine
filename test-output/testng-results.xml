@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2015-05-12T14:46:20Z" finished-at="2015-05-12T14:46:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2015-05-12T14:46:20Z" finished-at="2015-05-12T14:46:20Z">
+      <class name="tests.SnackMachineTest">
+        <test-method status="PASS" signature="test_coffe()[pri:0, instance:tests.SnackMachineTest@6956de9]" name="test_coffe" duration-ms="10" started-at="2015-05-12T17:46:20Z" finished-at="2015-05-12T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_coffe -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SnackMachineTest@6956de9]" name="init" is-config="true" duration-ms="0" started-at="2015-05-12T17:46:20Z" finished-at="2015-05-12T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="parameters_test()[pri:0, instance:tests.SnackMachineTest@6956de9]" name="parameters_test" duration-ms="0" started-at="2015-05-12T17:46:20Z" finished-at="2015-05-12T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameters_test -->
+        <test-method status="PASS" signature="test_toast()[pri:0, instance:tests.SnackMachineTest@6956de9]" name="test_toast" duration-ms="0" started-at="2015-05-12T17:46:20Z" depends-on-methods="tests.SnackMachineTest.test_coffe" finished-at="2015-05-12T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_toast -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:tests.SnackMachineTest@6956de9]" name="exit" is-config="true" duration-ms="0" started-at="2015-05-12T17:46:20Z" finished-at="2015-05-12T17:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- tests.SnackMachineTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
